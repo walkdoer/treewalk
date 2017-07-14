@@ -1,0 +1,24 @@
+{
+  "presets": [
+    ["es2015"],
+    ["stage-0"]
+  ],
+  "plugins": [
+    "add-module-exports",
+    "transform-es2015-modules-commonjs",
+    "transform-object-rest-spread",
+    "transform-es2015-destructuring",
+    "transform-object-assign",
+    "transform-class-properties"
+  ],
+  "env": {
+    "COMPILE": {
+      "plugins": [
+        [ "static", {
+          "assetsMapFile": "./lib/webpack-assets.json",
+          "assetsKey": "assets"
+        }]
+      ]
+    }
+  }
+}

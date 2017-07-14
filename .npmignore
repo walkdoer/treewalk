@@ -1,0 +1,10 @@
+src/
+builder/
+examples_src/
+coverage/
+node_modules/
+.npmignore
+.babelrc
+.eslintrc
+karma.conf.js
+test/
